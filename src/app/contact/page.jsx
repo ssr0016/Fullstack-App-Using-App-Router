@@ -5,8 +5,8 @@ import Button from '@/components/Button/Button'
 import ContactImg from "public/contact.png";
 
 export const metadata = {
-  title: "ssr Contact Information",
-  description: "This is Contact Page",
+  title: `ssr Contact Information`,
+  description: `This is Contact Page`,
 };
 
 const Contact = () => {
