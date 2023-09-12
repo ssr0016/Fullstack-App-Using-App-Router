@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
 import Button from '@/components/Button/Button'
+import ContactImg from "public/contact.png";
 
 export const metadata = {
   title: "ssr Contact Information",
@@ -15,7 +16,7 @@ const Contact = () => {
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image 
-            src={`/contact.png`}
+            src={ContactImg}
             alt=""
             fill={true}
             className={styles.image}
