@@ -4,15 +4,15 @@ import Image from 'next/image'
 import Button from '@/components/Button/Button'
 import ContactImg from "public/contact.png";
 
-export const metadata = {
-  title: `ssr Contact Information`,
-  description: `This is Contact Page`,
-};
+// export const metadata = {
+//   title: `ssr Contact Information`,
+//   description: `This is Contact Page`,
+// };
 
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's Keep in Touch</h1>
+      <h1 className={styles.title}>Let`s Keep in Touch</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image 
